@@ -1,5 +1,7 @@
 import validator from 'validator'
-import bcrypt, { genSalt } from 'bcrypt'
+import bcrypt from 'bcryptjs'
+import pkg from 'bcryptjs';
+
 import userModel from '../models/userModel.js'
 import jwt from 'jsonwebtoken'
 import {v2 as cloudinary} from 'cloudinary'
@@ -8,7 +10,7 @@ import appointmentModel from '../models/appointmentModel.js'
 import razorpay from 'razorpay'
 
 // API to register user 
-
+const { genSalt } = pkg;
 const registerUser = async (req, res) => {
     try {
         
