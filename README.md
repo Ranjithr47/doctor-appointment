@@ -1,5 +1,5 @@
 # Doctor Appointment Full Stack Project
-
+Live Preview: https://doc-appointment-frontend.onrender.com/
 This project is a **full-stack web application** built to facilitate appointment booking for patients with doctors. The application supports multiple doctor categories, allowing users to book appointments for specific days and times within the next week. Users can log in to manage their profile, book appointments, and interact with a variety of doctors based on their specialty. The admin panel provides functionalities for managing doctors, viewing all appointments, and generating useful statistics, while doctors can view their scheduled appointments and track their total earnings and patient count.
 
 ## Features
